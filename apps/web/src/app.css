@@ -1,12 +1,12 @@
 :root {
-  --bg: #0f172a;
-  --surface: #1e293b;
-  --surface-2: #273549;
-  --border: #334155;
-  --text: #e2e8f0;
-  --muted: #94a3b8;
-  --primary: #38bdf8;
-  --primary-dark: #0284c7;
+  --bg: #0b1220;
+  --surface: #12251c;
+  --surface-2: #1a3527;
+  --border: #2a5240;
+  --text: #e6f4ec;
+  --muted: #8fb8a5;
+  --primary: #4ade80;
+  --primary-dark: #16a34a;
   --danger: #f87171;
   --warning: #fbbf24;
   --success: #4ade80;
@@ -33,11 +33,11 @@ button {
   border-radius: var(--radius);
   padding: 0.6rem 1.1rem;
   background: var(--primary);
-  color: #082f49;
+  color: #052e16;
   font-weight: 600;
   transition: background 0.15s;
 }
-button:hover { background: #7dd3fc; }
+button:hover { background: #86efac; }
 button:disabled { opacity: 0.5; cursor: not-allowed; }
 button.secondary { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); }
 button.danger { background: transparent; color: var(--danger); border: 1px solid var(--danger); }

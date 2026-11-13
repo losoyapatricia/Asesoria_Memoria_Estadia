@@ -24,9 +24,9 @@
       // Traza del campus UTCJ
       const campus = L.geoJSON(UTCJ_BOUNDARY, {
         style: {
-          color: '#0284c7',
+          color: '#16a34a',
           weight: 3,
-          fillColor: '#38bdf8',
+          fillColor: '#4ade80',
           fillOpacity: 0.25
         },
         onEachFeature: (feature, layer) => {

@@ -165,7 +165,7 @@
     height: 48px;
     border-radius: 12px;
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-    color: #082f49;
+    color: #052e16;
     font-weight: 800;
     font-size: 1.2rem;
   }
@@ -187,7 +187,7 @@
   }
   .tab.active {
     background: var(--primary);
-    color: #082f49;
+    color: #052e16;
   }
   .auth-form { display: grid; gap: 0.9rem; }
   .auth-form label { display: block; font-size: 0.85rem; margin-bottom: 0.3rem; color: var(--muted); }
@@ -203,7 +203,7 @@
     font-size: 0.8rem;
     padding: 0.2rem 0.5rem;
   }
-  .pwd-toggle:hover { background: transparent; color: #7dd3fc; }
+  .pwd-toggle:hover { background: transparent; color: #86efac; }
   .auth-submit { padding: 0.75rem; font-size: 1rem; }
   .auth-hint { font-size: 0.8rem; margin: 0; }
 </style>

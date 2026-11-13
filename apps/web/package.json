@@ -17,5 +17,8 @@
   },
   "dependencies": {
     "leaflet": "^1.9.4"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }
