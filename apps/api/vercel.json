@@ -1,0 +1,8 @@
+# Backend Express desplegado como Vercel Functions.
+# Reescribe todas las rutas a la función serverless api/index.js
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index.js" }
+  ]
+}

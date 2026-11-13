@@ -1,0 +1,19 @@
+{
+  "name": "sistemaia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de revisión de documentos académicos (Memorias de Estadías): detección de texto generado por IA, ortografía, redacción y presentación.",
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:api": "npm run dev -w api",
+    "build": "npm run build -w api && npm run build -w web",
+    "start": "npm run start -w api"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
